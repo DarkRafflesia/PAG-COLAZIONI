@@ -1,0 +1,262 @@
+body{
+    font-family: Livvic;
+    margin:auto;
+    background-color:rgba(253, 245, 230, 1);
+}
+img{
+    max-width:100%;
+}
+header{
+    display:flex;
+    align-items: center;
+    margin:auto;
+    justify-content:space-between;
+}
+header img{
+    height:30px; 
+    object-fit: cover; 
+    width:100%; 
+    margin-left: auto;
+    display:flex;
+}
+nav ul{ 
+    text-align:center;
+    width:100%;
+    display:flex; 
+    justify-content: center;
+    gap:300px;
+    font-size:25px;
+    padding:0 0 0 170px;
+}
+nav a{ 
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{  
+    color:#521010; 
+}
+main {
+    margin: auto;
+    max-width:100%;
+}
+main section.Intro h1{
+    text-align:center;
+    justify-content: center;
+    color:white;
+    position:relative;
+    bottom: 350px;
+    background-color:black;
+    padding:10px;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: Livvic light;
+    font-style:italic;
+}
+main section.Intro img{
+    max-width:100%;
+    object-fit: cover;
+    margin: 10px 0 0 0;
+    border: 3px #521010;
+    border-style: solid none;
+}
+
+main section.Europa{
+    padding: 0 0 0 0px;
+    margin-top:-100px;
+}
+main section.Europa div{
+    padding:60px 0 0 90px;
+    display:flex;
+    align-items: center;
+    justify-content:left; 
+}
+
+main section.Europa h2{
+    text-align:left;
+    padding: 0 0 0 30px;
+    max-width:100%;
+    color:white;
+    background-color:#521010;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: Livvic light;
+}
+
+main section.Europa img{
+    max-width:50%;
+    border-radius: 999em 999em 999em 999em;
+    left:50px;
+    position:absolute;
+    gap:60px;
+}
+
+main section.Europa p{
+    position:absolute;
+    margin-left:-800px;
+    margin-right:-800px;
+    left:800px;
+    margin:0 100px 0 0;
+}
+
+main section.Europa h3{
+    position: relative;
+    left:710px;
+    top:-50px;
+    padding:20px 0 50px 0;
+    justify-content:right; 
+}
+
+
+main section.America{
+    padding: 0 0 0 0px;
+    margin-top:100px;
+}
+main section.America div{
+    padding:60px 0 0 90px;
+    display:flex;
+    align-items: center;
+}
+
+main section.America h2{
+    text-align:center;
+    max-width:100%;
+    color:white;
+    background-color:#521010;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: Livvic light;
+}
+
+main section.America img{
+    max-width:50%;
+    border-radius: 999em 999em 999em 999em;
+    left:50px;
+    position:absolute;
+    gap:60px;
+}
+
+main section.America p{
+    position:absolute;
+    margin-left:-800px;
+    margin-right:-800px;
+    left:800px;
+    margin:0 100px 0 0;
+}
+
+main section.America h3{
+    position: relative;
+    left:710px;
+    top:-40px;
+    padding:20px 0 50px 0;
+    justify-content:right; 
+}
+
+main section.Asia{
+    padding: 0 0 0 0px;
+    margin-top:100px;
+}
+main section.Asia div{
+    padding:60px 0 0 90px;
+    display:flex;
+    align-items: center;
+}
+
+main section.Asia h2{
+    text-align:right;
+    padding: 0 30px 0 0;
+    max-width:100%;
+    color:white;
+    background-color:#521010;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: Livvic light;
+}
+
+main section.Asia img{
+    max-width:50%;
+    border-radius: 999em 999em 999em 999em;
+    left:50px;
+    position:absolute;
+    gap:60px;
+}
+
+main section.Asia p{
+    position:absolute;
+    margin-left:-800px;
+    margin-right:-800px;
+    left:800px;
+    margin:0 100px 0 0;
+}
+
+main section.Asia h3{
+    position: relative;
+    left:710px;
+    top:-40px;
+    padding:20px 0 50px 0;
+    justify-content:right; 
+}
+
+main section.Finale h1{
+    text-align:center;
+    color:white;
+    position:relative;
+    bottom: 350px;
+    background-color:#521010;
+    padding:10px;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: Livvic light;
+    font-style:italic;
+}
+main section.Finale img{
+    align-items: center;
+    position:relative;
+    width:100%;
+    margin:auto;
+    bottom:-100px;
+    object-fit: contain;
+    border: 3px #521010;
+    border-style: solid none;
+}
+
+footer{
+    margin-top:40px;
+    margin-left:40px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding:0 0 50px 50px;
+    gap:600px;
+}
+
+footer h1 {
+    font-size:30px;
+    color:black;
+    text-transform: uppercase;
+    position:relative;
+    left:-40px;
+}
+footer h2 {
+    font-size:30px;
+    color:black;
+    text-transform: uppercase;
+    position:relative;
+    left:-40px;
+}
+footer ul{
+    font-size:20px;
+    width:100%;
+    
+}
+footer a{
+    text-decoration: none;
+    color:black;
+}
+ul a:hover{
+    color:#521010; 
+}
+footer p{
+    position:relative;
+    top:-20px;
+    left:-20px;
+}
